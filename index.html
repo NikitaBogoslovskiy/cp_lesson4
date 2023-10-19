@@ -3,19 +3,24 @@
 <head>
     <title>Lesson 4</title>
     <meta charset="UTF-8"/>
-
+    <link rel="stylesheet" href="index.css">
     <script src="src/index.js" type="module"></script>
 </head>
 
 <body>
-<h1>Implement the symbolic diff here</h1>
-<div id="container">
-
+<h1 id="mainTitle">Find Function Derivative</h1>
+<h3 id="userInstruction">Write down the function and variable (you can use only operations +, -, *, ^)</h3>
+<div id="inputFunctionContainer">
+    <input id="inputFunction" type="text" size="80px">
+    <input id="inputVariable" type="text" size="1px">
 </div>
-<div>
-    <button id="demoButton">
-        Add something
+<div id="derivativeButtonContainer">
+    <button id="derivativeButton">
+        Find Derivative
     </button>
+</div>
+<div id="derivativeResultContainer">
+    <p id="derivativeResult"></p>
 </div>
 </body>
 </html>
